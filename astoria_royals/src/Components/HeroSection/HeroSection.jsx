@@ -12,6 +12,7 @@ export default function HeroSection() {
             Prestige
             <br />
             takes 
+            <br/>
              residence
           </h1>
           <div className="hero-underline" />

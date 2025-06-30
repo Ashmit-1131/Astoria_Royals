@@ -1,7 +1,7 @@
 .hero-header {
   position: relative;
   width: 100%;
-  height: 110vh;                   /* full viewport height */
+  height: 115vh;                   /* full viewport height */
   background: url("../../Assets/Desktop/C-1226-Astoria-Royals-Landing-Page-v2.png") center/cover no-repeat;
   overflow: visible;
 }
@@ -20,12 +20,15 @@
 }
 
 .hero-nav__left {
+
   display: flex;
   align-items: center;
+  margin-top: -2%;
 }
 
 .hero-logo {
-  height: 50px;
+    height: 90%;
+  width: 90%;
 }
 
 .divider {
@@ -43,6 +46,7 @@
 .hero-nav__right {
   display: flex;
   align-items: center;
+   margin-top: -4%;
 }
 
 .btn-visit {

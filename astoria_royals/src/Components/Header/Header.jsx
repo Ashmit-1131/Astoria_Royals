@@ -4,7 +4,7 @@ import logoAstoria from "../../Assets/logo/C-1226-Astoria-Royals-Landing-Page-v2
 
 const Header = () => (
   <header className="hero-header">
-    {/* Top nav bar */}
+ 
     <div className="hero-nav">
       <div className="hero-nav__left">
         <img src={logoAstoria} alt="Astoria Royals" className="hero-logo" />
