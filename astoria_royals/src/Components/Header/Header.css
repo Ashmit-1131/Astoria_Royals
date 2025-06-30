@@ -1,12 +1,12 @@
 .hero-header {
   position: relative;
   width: 100%;
-  height: 115vh;                   /* full viewport height */
+  height: 115vh;
   background: url("../../Assets/Desktop/C-1226-Astoria-Royals-Landing-Page-v2.png") center/cover no-repeat;
   overflow: visible;
 }
 
-/* navigation bar */
+/* Navigation bar */
 .hero-nav {
   position: absolute;
   top: 0;
@@ -17,24 +17,23 @@
   align-items: center;
   padding: 1.5rem 2rem;
   z-index: 2;
+  flex-wrap: wrap;
 }
 
 .hero-nav__left {
-
   display: flex;
   align-items: center;
-  margin-top: -2%;
 }
 
 .hero-logo {
-    height: 90%;
-  width: 90%;
+  height: auto;
+  width: 140px;
 }
 
 .divider {
   width: 1px;
   height: 40px;
-  background: rgba(255,255,255,0.6);
+  background: rgba(255, 255, 255, 0.6);
   margin: 0 1rem;
 }
 
@@ -42,11 +41,11 @@
   height: 36px;
 }
 
-/* right side buttons */
+/* Right side buttons */
 .hero-nav__right {
   display: flex;
   align-items: center;
-   margin-top: -4%;
+  gap: 12px;
 }
 
 .btn-visit {
@@ -54,14 +53,13 @@
   border: 2px solid white;
   color: white;
   padding: 0.5rem 1rem;
-  margin-right: 1rem;
   font-size: 0.9rem;
   cursor: pointer;
   transition: background 0.2s;
 }
 
 .btn-visit:hover {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .btn-menu {
@@ -72,7 +70,7 @@
   cursor: pointer;
 }
 
-/* center overlay text */
+/* Center overlay text */
 .hero-content {
   position: absolute;
   bottom: 4rem;
@@ -96,4 +94,51 @@
 .hero-subtitle {
   font-size: 1.5rem;
   margin: 0;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .hero-header {
+    background-image: url("../../Assets/mobile/banner-1.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 1rem;
+  }
+
+  .hero-nav__right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero-logo {
+    width: 120px;
+  }
+
+  .btn-visit {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .btn-menu {
+    font-size: 1.6rem;
+  }
+
+  .hero-content {
+    bottom: 2rem;
+    left: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
 }

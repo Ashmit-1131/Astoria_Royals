@@ -1,4 +1,4 @@
-// BrandStory.jsx
+
 import React, { useState } from 'react';
 import './BrandStory.css';
 import nirmanLogo from '../../Assets/logo/C-1226-Astoria-Royals-Landing-Page-v2.png';

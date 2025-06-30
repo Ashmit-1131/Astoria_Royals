@@ -106,3 +106,63 @@
   font-size: 14px;
   color: #d8b25c;
 }
+
+
+ /* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .headline {
+    font-size: 32px;
+    white-space: normal;
+  }
+
+  .headline .line {
+    display: none;
+  }
+
+  .brand-details {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brand-logo {
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .brand-description {
+    max-width: 100%;
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .accordion-title {
+    font-size: 24px;
+  }
+
+  .accordion {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .accordion-header {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .accordion-content {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  .accordion-row {
+    font-size: 13px;
+  }
+}

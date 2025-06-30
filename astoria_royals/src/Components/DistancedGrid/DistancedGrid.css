@@ -97,3 +97,48 @@
   width: 16px;
   height: 16px;
 }
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .video-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .text-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .headline {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .copy {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .map-image {
+    width: 100%;
+  }
+
+  /* Swap Desktop Map Image with Mobile Map Image */
+  .map-image[alt="Map of location"] {
+    content: url('../../Assets/mobile/banner-5.png');
+  }
+
+  .direction-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+}
