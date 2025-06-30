@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
