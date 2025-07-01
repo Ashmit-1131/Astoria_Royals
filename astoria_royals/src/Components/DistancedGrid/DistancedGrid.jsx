@@ -20,21 +20,21 @@ const DistancedGrid = () => (
     </div>
 
 
-        <section className="hero-section">
-      <div className="hero-content">
-        <div className="hero-left">
-          <h1 className="hero-headline">
+        <section className="distance-section">
+      <div className="distance-content">
+        <div className="distance-left">
+          <h1 className="distance-headline">
             A landmark<br />
         destination for<br />
         elevated living
           </h1>
-          <div className="hero-underline" />
+          <div className="distance-underline" />
         </div>
-        <div className="hero-right">
-          <h1 className="hero-headline hero-headline--invisible">
+        <div className="distance-right">
+          <h1 className="distance-headline hero-headline--invisible">
             residence
           </h1>
-          <p className="hero-copy">
+          <p className="distance-copy">
              Revet is where Pune’s future is unfolding. <br />
               Tucked between the Pune-Mumbai <br />
         Expressway and the Katraj-Dehu Bypass, <br />
