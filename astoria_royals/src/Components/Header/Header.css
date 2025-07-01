@@ -6,7 +6,7 @@
   overflow: visible;
 }
 
-/* Navigation bar */
+
 .hero-nav {
   position: absolute;
   top: 0;
@@ -27,7 +27,7 @@
 
 .hero-logo {
   height: auto;
-  width: 140px;
+  width: 340px;
 }
 
 .divider {
@@ -41,7 +41,7 @@
   height: 36px;
 }
 
-/* Right side buttons */
+
 .hero-nav__right {
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@
   cursor: pointer;
 }
 
-/* Center overlay text */
+
 .hero-content {
   position: absolute;
   bottom: 4rem;
@@ -96,15 +96,20 @@
   margin: 0;
 }
 
-/* Mobile responsiveness */
+
 @media screen and (max-width: 768px) {
+  body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   .hero-header {
     background-image: url("../../Assets/mobile/banner-1.png");
     background-size: cover;
     background-position: center;
   }
 
-  .hero-nav {
+  .hero-nav{
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;

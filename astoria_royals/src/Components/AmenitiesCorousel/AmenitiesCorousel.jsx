@@ -22,19 +22,31 @@ const AmenitiesCarousel = () => (
       </div>
     </div>
 
-    <div className="text-block">
-      <div className="headline">
-        A stellar<br />
+     <section className="hero-section">
+      <div className="hero-content">
+        <div className="hero-left">
+          <h1 className="hero-headline">
+             A stellar<br />
         lineup<br />
         of luxuries
+          </h1>
+          <div className="hero-underline" />
+        </div>
+        <div className="hero-right">
+          <h1 className="hero-headline hero-headline--invisible">
+            residence
+          </h1>
+          <p className="hero-copy">
+             Luxury isn't a label at Astoria Royals, it is a <br />
+         full-blown experience. From indulgent <br />
+        leisure spaces and wellness facilities to <br />
+         top-tier entertainment, every amenity is <br />
+        designed to surpass expectations. Whatever you desire, chances are, it’s <br />
+         already waiting for you.
+          </p>
+        </div>
       </div>
-      <div className="copy">
-        Luxury isn't a label at Astoria Royals, it is a full-blown experience. From indulgent
-        leisure spaces and wellness facilities to top-tier entertainment, every amenity is
-        designed to surpass expectations. Whatever you desire, chances are, it’s already waiting
-        for you.
-      </div>
-    </div>
+    </section>
 
     <div className="carousel">
       <div className="carousel-item side">

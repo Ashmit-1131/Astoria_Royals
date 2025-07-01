@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 1) Universal box‑sizing so paddings & borders stay inside width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 2) Reset margins/paddings + hide any accidental overflow */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 3) A handy “container” utility you can wrap any page in */
+.container {
+  max-width: 1200px;      /* or whatever your design spec is */
+  width: 100%;            
+  margin: 0 auto;         /* center on desktop */
+  padding: 0 1rem;        /* 1rem gutter on both sides */
+}
+
+/* 4) Make images, videos and iframes fully fluid */
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

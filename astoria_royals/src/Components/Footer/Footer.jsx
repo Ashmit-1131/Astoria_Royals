@@ -32,7 +32,6 @@ const Footer = () => {
 
         <div className="footer-section contact-section">
           <div className="phone">
-            {/* <FaPhoneAlt className="icon" /> */}
             <span>00000 00000</span>
           </div>
           <div className="qrs">

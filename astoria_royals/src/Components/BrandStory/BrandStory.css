@@ -1,3 +1,6 @@
+/* TopSection.css */
+
+/* Entire section wrapper */
 .brand-story {
   background-color: #000;
   color: #fff;
@@ -6,56 +9,64 @@
   margin: 0 auto;
 }
 
+/* === “From the trusted —” block === */
 .top-section {
   display: flex;
-  gap: 30px;
   align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 60px;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
 }
 
 .headline {
-  flex: 1;
-  font-size: 48px;
-  font-family: 'Times New Roman', serif;
-  color: #d8b25c;
   position: relative;
+  flex: 1;
+  font-family: 'Times New Roman', serif;
+  /* fluid font between 2rem and 4rem */
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+  color: #d8b25c;
+  margin: 0;
   white-space: nowrap;
 }
 
 .headline .highlight {
-  color: #d8b25c;
-  margin-left: 5px;
+  margin-left: 0.5rem;
 }
 
 .headline .line {
   position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: #d8b25c;
-  margin-top: 10px;
+  bottom: 0;
+  left: 100%;
+  transform: translateX(1rem);
+  width: 200px;
+  height: 4px;
+  background-color: #d8b25c;
 }
+
 
 .brand-details {
   flex: 2;
   display: flex;
-  gap: 20px;
   align-items: flex-start;
+  gap: 1.5rem;
+  margin-top: 7.5rem; 
 }
 
 .brand-logo {
-  width: 60px;
+  flex-shrink: 0;
+  width: 320px;
   height: auto;
-  margin-top: 5px;
+  margin-top: 0.25em;
 }
 
 .brand-description {
-  font-size: 14px;
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
   line-height: 1.6;
-  color: #fff;
-  max-width: 500px;
+  color: #e8e1d8;
+  margin: 0;
+  max-width: 600px;
 }
 
 .accordion-title {
@@ -108,17 +119,17 @@
 }
 
 
- /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .top-section {
     flex-direction: column;
-    gap: 20px;
+    gap: 1.5rem;
     align-items: center;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .headline {
-    font-size: 32px;
+    font-size: clamp(1.5rem, 8vw, 3rem);
     white-space: normal;
   }
 
@@ -129,11 +140,11 @@
   .brand-details {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
   }
 
   .brand-logo {
-    width: 50px;
+    width: 60px;
     margin: 0 auto;
   }
 

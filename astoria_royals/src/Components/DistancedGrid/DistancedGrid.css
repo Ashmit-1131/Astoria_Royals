@@ -35,35 +35,7 @@
   height: 100%;
 }
 
-.text-block {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-  margin-bottom: 60px;
-  flex-wrap: wrap;
-}
 
-.headline {
-  flex: 1;
-  min-width: 280px;
-  font-family: 'Times New Roman', serif;
-  font-size: 48px;
-  line-height: 1.1;
-  color: #d8b25c;
-  text-align: left;
-}
-
-.copy {
-  flex: 1;
-  min-width: 280px;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #fff;
-  text-align: left;
-  border-bottom: 1px solid #d8b25c;
-  padding-bottom: 20px;
-}
 
 .map-container {
   margin-bottom: 40px;
@@ -74,7 +46,7 @@
   width: 85%;
   height: auto;
   display: block;
-  margin: 0 auto;      /* centers the image */
+  margin: 0 auto;     
   border: 1px solid #d8b25c;
 }
 
@@ -99,7 +71,7 @@
 }
 
 
-/* Responsive Styles */
+
 @media screen and (max-width: 768px) {
   .video-container {
     width: 100%;
@@ -132,7 +104,7 @@
     width: 100%;
   }
 
-  /* Swap Desktop Map Image with Mobile Map Image */
+
   .map-image[alt="Map of location"] {
     content: url('../../Assets/mobile/banner-5.png');
   }

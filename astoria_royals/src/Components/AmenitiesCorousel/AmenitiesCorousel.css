@@ -100,7 +100,6 @@
   font-size: 12px;
 }
 
-/* RESPONSIVE STYLES */
 @media screen and (max-width: 768px) {
   .video-container {
     width: 100%;
@@ -112,21 +111,6 @@
     font-size: 24px;
   }
 
-  .text-block {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .headline {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .copy {
-    font-size: 14px;
-    text-align: center;
-  }
-
   .carousel {
     flex-direction: column;
   }
@@ -136,7 +120,7 @@
     height: 200px;
   }
 
-  /* SWAP IMAGES FOR MOBILE */
+
   .carousel-item img[alt="Garden Lounge"] {
     content: url('../../Assets/mobile/banner-2.png');
   }

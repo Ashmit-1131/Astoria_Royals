@@ -1,8 +1,7 @@
-// ContactForm.jsx
+
 import React, { useState } from 'react';
 import './ContactForm.css';
-import sideImage from '../../Assets/Desktop/baneer-4.png'; // <-- import your image here
-
+import sideImage from '../../Assets/Desktop/baneer-4.png'; 
 const ContactForm = () => {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '' });
   const [status, setStatus] = useState(null);

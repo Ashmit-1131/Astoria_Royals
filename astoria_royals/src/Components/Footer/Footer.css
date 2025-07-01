@@ -92,7 +92,7 @@
 }
 
 
-/* Responsive Styles */
+
 @media screen and (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -112,7 +112,8 @@
   }
 
   .nirman-logo {
-    width: 80px;
+    width: 520px;
+    height: auto;
   }
 
   .qr {

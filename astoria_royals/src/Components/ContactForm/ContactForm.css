@@ -1,4 +1,4 @@
-/* ContactForm.css */
+
 .contact-form-container {
   display: flex;
   width: 100%;
@@ -6,7 +6,7 @@
   flex-wrap: nowrap;
 }
 
-/* Left (Form) Side */
+
 .form-side {
   flex: 1;
   background-color: #000;
@@ -19,7 +19,6 @@
   justify-content: center;
 }
 
-/* Right (Image) Side */
 .image-side {
   flex: 1;
   overflow: hidden;
@@ -31,7 +30,7 @@
   object-fit: cover;
 }
 
-/* Form Section */
+
 .title {
   font-family: 'Times New Roman', serif;
   font-size: 28px;
@@ -104,7 +103,7 @@ label {
   color: #f44336;
 }
 
-/* Responsive Design for Mobile */
+
 @media screen and (max-width: 768px) {
   .contact-form-container {
     flex-direction: column;

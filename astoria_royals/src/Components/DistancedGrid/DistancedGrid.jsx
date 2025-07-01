@@ -1,7 +1,7 @@
 import React from 'react';
 import './DistancedGrid.css';
 import mapImage from '../../Assets/Desktop/baneer-5.png';
-// import mapIcon from './map-icon.png';
+
 
 const DistancedGrid = () => (
   <div className="distance-container">
@@ -19,30 +19,47 @@ const DistancedGrid = () => (
       </div>
     </div>
 
-    <div className="text-block">
-      <div className="headline">
-        A landmark<br />
+
+        <section className="hero-section">
+      <div className="hero-content">
+        <div className="hero-left">
+          <h1 className="hero-headline">
+            A landmark<br />
         destination for<br />
         elevated living
-      </div>
-      <div className="copy">
-        Revet is where Pune’s future is unfolding. Tucked between the Pune-Mumbai
-        Expressway and the Katraj-Dehu Bypass, this rapidly developing suburban
-        neighborhood connects you to wherever you want to be without the usual
-        hassles. It owes its incredible connectivity to the old and new Mumbai
-        highways, the Pune Railway, and the Alandi Railway Station. Top schools,
-        business hubs, entertainment enclaves, healthcare facilities and other
-        essentials are all within close proximity. This isn’t just a convenient
+          </h1>
+          <div className="hero-underline" />
+        </div>
+        <div className="hero-right">
+          <h1 className="hero-headline hero-headline--invisible">
+            residence
+          </h1>
+          <p className="hero-copy">
+             Revet is where Pune’s future is unfolding. <br />
+              Tucked between the Pune-Mumbai <br />
+        Expressway and the Katraj-Dehu Bypass, <br />
+         this rapidly developing suburban <br />
+        neighborhood connects you to wherever <br />
+         you want to be without the usual hassles. It <br />
+         owes its incredible connectivity to the old <br />
+         and new Mumbai highways, the <br />
+         Pune Railway, and the AKurdi Railway Station. <br />
+         Top schools, business hubs, entertainment enclaves, <br />
+         healthcare facilities and other <br />
+        essentials are all within close proximity. <br />
+         This isn’t just a convenient
         location, but a smart one.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div className="map-container">
       <img src={mapImage} alt="Map of location" className="map-image" />
     </div>
 
     <button className="direction-button">
-      {/* <img src={mapIcon} alt="Map Icon" className="icon" /> */}
+
       CLICK HERE TO GET DIRECTIONS
     </button>
   </div>

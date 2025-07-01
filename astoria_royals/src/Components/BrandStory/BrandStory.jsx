@@ -53,7 +53,7 @@ const BrandStory = () => {
     <section className="brand-story">
       <div className="top-section">
         <div className="headline">
-          <span>From the </span>
+          <span> From the </span>
           <span className="highlight">trusted</span>
           <span className="line" />
         </div>
