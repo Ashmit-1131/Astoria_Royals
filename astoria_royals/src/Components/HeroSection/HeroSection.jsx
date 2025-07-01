@@ -9,14 +9,13 @@ export default function HeroSection() {
           <h1 className="hero-headline">
             Where<br/>
             Prestige<br/>
-            takes
+            takes <br />
+            residence
           </h1>
           <div className="hero-underline" />
         </div>
         <div className="hero-right">
-          <h1 className="hero-headline hero-headline--invisible">
-            residence
-          </h1>
+       
           <p className="hero-copy">
             Royal living is reimagined as Astoria Royals, a<br/>
             luxurious project of spacious 4 & 3 BHK homes.<br/>
